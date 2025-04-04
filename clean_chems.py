@@ -4,8 +4,6 @@ import re
 import datetime
 from pathlib import Path
 
-
-
 def casrn_split(x):
     """
     Take a text string and extract all occurrences of a CASRN number. This 
